@@ -16,7 +16,7 @@ I built a node-based AI editor from scratch using the Unity Editor API, inspired
   links: [
     {
       label: "GitHub",
-      url: "https://github.com/Aspekt1024/ClumsyBat",
+      url: "https://github.com/pleasurelf",
       type: "github",
     },
   ],
