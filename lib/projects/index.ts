@@ -15,6 +15,7 @@ import { forestDemo } from "./forest-demo";
 import { factoryDemo } from "./factory-demo";
 import { stel } from "./stel";
 import { doomsdayBall } from "./doomsday-ball";
+import { herbiesHeinousHorrors } from "./herbies-heinous-horrors";
 import { findersKeepers } from "./game-jam-finders-keepers";
 import { goap } from "./goap";
 import { playerController } from "./player-controller";
@@ -31,6 +32,7 @@ export const projects = [
   // Personal
     stel,
     doomsdayBall,
+    herbiesHeinousHorrors,
   forestDemo,
   factoryDemo,
   procgen,
