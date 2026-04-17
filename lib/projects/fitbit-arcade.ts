@@ -5,7 +5,7 @@ export const fitbitArcade: Project = {
   title: "Fitbit Arcade Games",
   year: "2023-2024",
   team: "Google / Mighty Games / Mighty Build and Test",
-  role: "Senior Automation Engineer",
+  role: "Automation Engineer",
   category: "professional",
   image: "/fitbit/fitbit-arcade-watch.png",
   description: `
