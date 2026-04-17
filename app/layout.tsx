@@ -21,7 +21,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dan Szabo - Portfolio",
+  // title that appears in the tab
+    title: "Jennifer Kilroy - Portfolio",
   description: "Melbourne based game developer",
 };
 

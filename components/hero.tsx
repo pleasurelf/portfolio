@@ -6,8 +6,8 @@ import { renderBody } from "@/components/render-body";
 
 export default function Hero() {
   const stats = [
+    { num: "+ 4 years", label: "in game development" },
     { num: "+ 15 years", label: "professional experience" },
-    { num: "+ 9 years", label: "in game development" },
     { num: "3", label: "engines" },
   ];
 
@@ -27,11 +27,10 @@ export default function Hero() {
 
           {/* Name + title */}
           <h1 className="text-4xl md:text-5xl font-bold text-zinc-900 dark:text-zinc-50 leading-tight tracking-tight mb-2">
-            Dan Szabo
+            Jennifer Kilroy
           </h1>
           <p className="text-lg text-zinc-500 mb-6 font-medium">
-            Senior Game Developer{" "}
-            <span className="text-indigo-500 dark:text-indigo-400">/</span> Engineer
+            Engineer{" "}
           </p>
 
           {/* Bio */}
@@ -41,7 +40,7 @@ export default function Hero() {
 
           {/* CTAs */}
           <div className="flex items-center gap-3 flex-wrap mb-8">
-            <a href="/Dan_Szabo_CV_Online.pdf" download>
+            <a href="/JenniferKilroyCV_2026.pdf" download>
               <Button className="bg-indigo-500 hover:bg-indigo-400 text-white rounded-none font-medium text-sm px-5 gap-2 transition-colors">
                 <Download size={14} />
                 Download CV
@@ -61,7 +60,7 @@ export default function Hero() {
           <div className="flex items-center gap-3">
             <span className="text-zinc-400 dark:text-zinc-600 text-xs mr-1">find me on</span>
             <a
-              href="https://linkedin.com/in/dan-szabo-02ab952b"
+              href="https://linkedin.com/in/jennykilroy"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
@@ -73,22 +72,23 @@ export default function Hero() {
                 <circle cx="4" cy="4" r="2" />
               </svg>
             </a>
+            {/*    // TODO remove*/}
+            {/*<a*/}
+            {/*  href="https://github.com/Aspekt1024"*/}
+            {/*  target="_blank"*/}
+            {/*  rel="noopener noreferrer"*/}
+            {/*  aria-label="GitHub"*/}
+            {/*  className="group w-11 h-11 flex items-center justify-center border border-violet-400 dark:border-violet-500 hover:bg-violet-500 hover:scale-110 transition-all duration-150"*/}
+            {/*>*/}
+            {/*  <img*/}
+            {/*    src="/github.svg"*/}
+            {/*    alt=""*/}
+            {/*    aria-hidden="true"*/}
+            {/*    className="w-6 h-6 dark:invert opacity-70 group-hover:invert group-hover:opacity-100 transition-all"*/}
+            {/*  />*/}
+            {/*</a>*/}
             <a
-              href="https://github.com/Aspekt1024"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="GitHub"
-              className="group w-11 h-11 flex items-center justify-center border border-violet-400 dark:border-violet-500 hover:bg-violet-500 hover:scale-110 transition-all duration-150"
-            >
-              <img
-                src="/github.svg"
-                alt=""
-                aria-hidden="true"
-                className="w-6 h-6 dark:invert opacity-70 group-hover:invert group-hover:opacity-100 transition-all"
-              />
-            </a>
-            <a
-              href="mailto:danszabo.dev@gmail.com"
+              href="mailto:jennekilroy@gmail.com"
               aria-label="Email"
               className="w-11 h-11 flex items-center justify-center border border-amber-400 dark:border-amber-500 text-amber-500 dark:text-amber-400 hover:bg-amber-500 hover:text-white hover:border-amber-500 hover:scale-110 transition-all duration-150"
             >
@@ -116,8 +116,8 @@ export default function Hero() {
             {/* Photo container */}
             <div className="relative z-10 w-full h-full bg-zinc-200 dark:bg-zinc-800/80 border border-zinc-300 dark:border-zinc-700 overflow-hidden">
               <Image
-                src="/DanProfile.jpg"
-                alt="Dan Szabo"
+                src="/JennyProfilePicture.png"
+                alt="Jennifer Kilroy" // TODO what is this?
                 fill
                 sizes="(max-width: 768px) 192px, 224px"
                 className="object-cover object-top"
