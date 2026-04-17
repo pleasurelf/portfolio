@@ -38,6 +38,7 @@ export default function HomeAbout() {
             ))}
           </div>
         </div>
+          
       </div>
     </section>
   );

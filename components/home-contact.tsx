@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function HomeContact() {
   return (
     <section id="contact" className="border-t border-zinc-200 dark:border-zinc-800/60">
@@ -6,7 +8,32 @@ export default function HomeContact() {
           <div className="w-6 h-px bg-indigo-400" />
           <span className="text-indigo-500 dark:text-indigo-400 text-xs tracking-widest uppercase">contact</span>
         </div>
-        <h2 className="text-3xl font-bold text-zinc-900 dark:text-zinc-50 tracking-tight mb-4">Get in touch</h2>
+        <h2 className="text-3xl font-bold text-zinc-900 dark:text-zinc-50 tracking-tight mb-4">Get In Touch</h2>
+          {/* Left — photo */}
+          <div className="shrink-0">
+              <div className="relative w-48 h-48 md:w-56 md:h-56">
+                  {/* Soft glow behind photo */}
+                  <div
+                      className="absolute inset-0 pointer-events-none scale-150"
+                      style={{
+                          background:
+                              "radial-gradient(circle, rgba(99,102,241,0.15) 0%, transparent 70%)",
+                      }}
+                  />
+                  {/* Photo container */}
+                  <div>
+                      <Image
+                          src="/images/jenny/baeley-and-jenny.jpg"
+                          alt="Art Portrait of Baeley the Beagle and Jenny"
+                          fill
+                          sizes="(max-width: 768px) 192px, 224px"
+                          className="object-cover object-top"
+                          priority
+                      />
+                  </div>
+              </div>
+          </div>
+          
         <p className="text-zinc-500 dark:text-zinc-400 mb-10 max-w-md">
           I'm open to new opportunities and collaborations. Feel free to reach out via email or connect with me online.
         </p>
@@ -36,16 +63,8 @@ export default function HomeContact() {
             </svg>
             LinkedIn
           </a>
-          <a
-            href="https://github.com/Aspekt1024"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group inline-flex items-center gap-2.5 px-6 py-3 border border-zinc-300 dark:border-zinc-700 text-zinc-600 dark:text-zinc-400 hover:border-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-400 text-sm transition-colors"
-          >
-            <img src="/github.svg" alt="" aria-hidden="true" className="w-4 h-4 dark:invert opacity-60 group-hover:opacity-100 transition-opacity" />
-            GitHub
-          </a>
         </div>
+          
       </div>
     </section>
   );

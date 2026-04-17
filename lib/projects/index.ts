@@ -13,12 +13,11 @@ import { dreamlight } from "./dreamlight";
 import { innchanted } from "./innchanted";
 import { forestDemo } from "./forest-demo";
 import { factoryDemo } from "./factory-demo";
-import { clumsyBat } from "./clumsy-bat";
+import { stel } from "./stel";
+import { findersKeepers } from "./game-jam-finders-keepers";
 import { goap } from "./goap";
 import { playerController } from "./player-controller";
 import { procgen } from "./procgen";
-import { lonelyAstronaut } from "./lonely-astronaut";
-import { meowMeowCrash } from "./meow-meow-crash";
 
 export const projects = [
   // Professional
@@ -29,15 +28,14 @@ export const projects = [
   fitbitArcade,
   innchanted,
   // Personal
+    stel,
   forestDemo,
   factoryDemo,
-  clumsyBat,
   procgen,
   goap,
   playerController,
   // Game Jams
-  meowMeowCrash,
-  lonelyAstronaut,
+    findersKeepers,
 ];
 
 export const featuredProjects = ["testbuddy", "lego-party", "dreamlight", "guilty-gear", "fitbit-arcade", "innchanted"];

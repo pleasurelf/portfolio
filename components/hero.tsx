@@ -6,9 +6,9 @@ import { renderBody } from "@/components/render-body";
 
 export default function Hero() {
   const stats = [
-    { num: "+ 4 years", label: "in game development" },
     { num: "+ 15 years", label: "professional experience" },
-    { num: "3", label: "engines" },
+    { num: "+ 4 years", label: "in game development" },
+    { num: "+ 5 years", label: "hospitality" },
   ];
 
   return (
@@ -26,9 +26,21 @@ export default function Hero() {
           </div>
 
           {/* Name + title */}
-          <h1 className="text-4xl md:text-5xl font-bold text-zinc-900 dark:text-zinc-50 leading-tight tracking-tight mb-2">
+          <h1 
+              className="
+              text-4xl 
+              md:text-5xl 
+              font-bold 
+              text-zinc-900 
+              dark:text-zinc-50 
+              leading-tight 
+              tracking-tight 
+              mb-2"
+          >
+              {/* header name */}
             Jennifer Kilroy
           </h1>
+            
           <p className="text-lg text-zinc-500 mb-6 font-medium">
             Engineer{" "}
           </p>
@@ -41,9 +53,20 @@ export default function Hero() {
           {/* CTAs */}
           <div className="flex items-center gap-3 flex-wrap mb-8">
             <a href="/JenniferKilroyCV_2026.pdf" download>
-              <Button className="bg-indigo-500 hover:bg-indigo-400 text-white rounded-none font-medium text-sm px-5 gap-2 transition-colors">
+              <Button 
+                  className="
+                  bg-amber-500 
+                  hover:bg-amber-700 
+                  text-white 
+                  rounded-full 
+                  font-medium 
+                  text-sm 
+                  px-5 
+                  gap-2 
+                  transition-colors"
+              >
                 <Download size={14} />
-                Download CV
+                  CV
               </Button>
             </a>
             <a href="/projects">
@@ -112,15 +135,24 @@ export default function Hero() {
               }}
             />
             {/* Offset accent border */}
-            <div className="absolute inset-0 border border-indigo-400/40 translate-x-2.5 translate-y-2.5" />
+            <div 
+                className="
+                absolute inset-0 border 
+                {/*border-indigo-400/40 */}
+                translate-x-2.5 
+                translate-y-2.5
+                rounded-full
+                " 
+            />
             {/* Photo container */}
-            <div className="relative z-10 w-full h-full bg-zinc-200 dark:bg-zinc-800/80 border border-zinc-300 dark:border-zinc-700 overflow-hidden">
+            {/*<div className="relative z-10 w-full h-full bg-zinc-200 dark:bg-zinc-800/80 border border-zinc-300 dark:border-zinc-700 overflow-hidden">*/}
+            <div>
               <Image
                 src="/JennyProfilePicture.png"
-                alt="Jennifer Kilroy" // TODO what is this?
+                alt="Photograph of Jennifer Kilroy"
                 fill
                 sizes="(max-width: 768px) 192px, 224px"
-                className="object-cover object-top"
+                className="object-cover object-top rounded-full"
                 priority
               />
             </div>
@@ -138,7 +170,8 @@ export default function Hero() {
             <div className="text-xl md:text-2xl font-bold text-zinc-900 dark:text-zinc-50 leading-none mb-1">
               {stat.num.replace("+", "")}
               {stat.num.includes("+") && (
-                <span className="text-amber-500 dark:text-amber-400">+</span>
+                <span className="text-emerald-500 dark:text-emerald-400">+</span>
+                // <span className="text-amber-500 dark:text-amber-400">+</span>
               )}
             </div>
             <div className="text-[11px] text-zinc-400 dark:text-zinc-600 uppercase tracking-wider">
