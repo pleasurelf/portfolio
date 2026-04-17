@@ -5,9 +5,9 @@ export const guiltyGear: Project = {
   title: "Guilty Gear Strive - Switch Edition",
   year: "2023-2024",
   team: "Mighty Build and Test",
-  role: "Senior Automation Engineer",
+  role: "Automation Engineer",
   category: "professional",
-  image: "/images/guilty-gear/guilty-gear-title.png",
+  image: "/guilty-gear/guilty-gear-title.png",
   imagePosition: "top",
   description: `
 Created a performance capture and reporting tool and automated test cases for QA .
@@ -38,7 +38,7 @@ The features I worked on were:
 This tied into features other engineers developed to automatically test performance for each character and stage combination, along with character abilities.
 With well placed performance markers, we were able to flag any performance shortfalls to the developers.
       `,
-      image: "/images/guilty-gear/guilty-gear-explosions.jpg",
+      image: "/guilty-gear/guilty-gear-explosions.jpg",
       imageAlt: "Lego Party gameplay",
     },
     {
@@ -48,7 +48,7 @@ Automating menu navigation was a challenge that involved knowing where we were a
 This arose by the way UI elements were presented on screen, so we needed clever ways to identify what was visible and what was selected, and it needed to be robust so our test cases could be deterministic.
 My role was to find unique UI elements and use them to automate main menu navigation through options, galleries, and character and stage selection.
       `,
-      image: "/images/guilty-gear/guilty-gear-gallery.jpg",
+      image: "/guilty-gear/guilty-gear-gallery.jpg",
       imageAlt: "",
     },
   ],

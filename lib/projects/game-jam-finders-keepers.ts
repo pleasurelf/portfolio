@@ -1,13 +1,13 @@
 ﻿import type { Project } from "./types";
 
 export const findersKeepers: Project = {
-    id: "finders-keepers",
+    id: "game-jam-finders-keepers",
     title: "Finders Keepers",
     year: "2021",
     team: "Australian Global Game Jam",
     role: "Game Generalist",
     category: "jam",
-    image: "/images/finders-keepers/finders-keepers-cover.png",
+    image: "/finders-keepers/finders-keepers-cover.png",
     description:
         "AGGJ 2021 - 48 hours to make a game. A 2P platformer, made in a frenzy.",
     tags: ["Unity", "C#", "Game Jam"],
@@ -37,7 +37,7 @@ Post-jam, an online score system was added following requests at the Melbourne P
 PLAY AS "PINCHY" AND "FOOLHARDY JONZE" IN THIS EPIC TRAIN BATTLE ARENA (ANTICIPATED MOBA RELEASE SOON) SET ON A TRAIN IN SPACE. THE BROTHERS/COUSINS (UP TO YOU, THIS IS THE WILD WEST) HAVE ROBBED A TRAIN, BUT AFTER PINCHY GAVE FOOLHARDY JONZE THE 'OL SLIP, JONZE IS OUT TO TAKE BACK WHAT HE IS OWED.
 PLAY THIS EPIC ADVENTURE WITH YOUR BEST FRIEND, OR MAKE THIS GAME WITH HIS GIRLFRIEND, AND COLLECT THE MOST COINS TO WIN... BUT THE REAL WIN IS THE FRIENDSHIP WE MAKE ALONG THE WAY
       `,
-            image: "/images/finders-keepers/finders-keepers-gameplay-gif.gif",
+            image: "/finders-keepers/finders-keepers-gameplay-gif.gif",
             imageAlt: "Finders Keepers Crash gameplay",
         },
         {
@@ -46,7 +46,7 @@ PLAY THIS EPIC ADVENTURE WITH YOUR BEST FRIEND, OR MAKE THIS GAME WITH HIS GIRLF
 Insert some description here
 .
       `,
-            image: "/images/finders-keepers/finders-keepers-gameplay-image-2.png",
+            image: "/finders-keepers/finders-keepers-gameplay-image-2.png",
             imageAlt: "Meow Meow Crash trashed room",
         },
     ],

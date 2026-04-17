@@ -148,7 +148,7 @@ export default function Hero() {
             {/*<div className="relative z-10 w-full h-full bg-zinc-200 dark:bg-zinc-800/80 border border-zinc-300 dark:border-zinc-700 overflow-hidden">*/}
             <div>
               <Image
-                src="/JennyProfilePicture.png"
+                src="/jenny/JennyProfilePicture.png"
                 alt="Photograph of Jennifer Kilroy"
                 fill
                 sizes="(max-width: 768px) 192px, 224px"

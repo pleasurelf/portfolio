@@ -88,8 +88,8 @@ function SectionHeading({ label, title }: { label: string; title: string }) {
   return (
     <div className="mb-6">
       <div className="flex items-center gap-2 mb-3">
-        <div className="w-6 h-px bg-indigo-400" />
-        <span className="text-indigo-500 dark:text-indigo-400 text-xs tracking-widest uppercase">
+        <div className="w-6 h-px bg-amber-400" />
+        <span className="text-amber-600 dark:text-amber-400 text-xs tracking-widest uppercase">
           {label}
         </span>
       </div>
@@ -103,6 +103,7 @@ function SectionHeading({ label, title }: { label: string; title: string }) {
 export default function ProjectsPage() {
   const professionalWork = projects.filter((p) => p.category === "professional");
   const personalWork = projects.filter((p) => p.category === "personal");
+  const personalOtherWork = projects.filter((p) => p.category === "personalOther");
   const jams = projects.filter((p) => p.category === "jam");
 
   return (
@@ -117,19 +118,20 @@ export default function ProjectsPage() {
         </Link>
 
         {/* Page heading */}
-        <div className="flex items-center gap-2 mb-4">
-          <div className="w-6 h-px bg-indigo-400" />
-          <span className="text-indigo-500 dark:text-indigo-400 text-xs tracking-widest uppercase">
-            work
-          </span>
-        </div>
+        {/*<div className="flex items-center gap-2 mb-4">*/}
+        {/*  <div className="w-6 h-px bg-indigo-400" />*/}
+        {/*  <span className="text-indigo-500 dark:text-indigo-400 text-xs tracking-widest uppercase">*/}
+        {/*    work*/}
+        {/*  </span>*/}
+        {/*</div>*/}
         <h1 className="text-3xl font-bold text-zinc-900 dark:text-zinc-50 tracking-tight mb-14">
           All projects
         </h1>
 
         {/* Professional Work */}
         <div className="mb-16">
-          <SectionHeading label="professional" title="Professional Work" />
+          <SectionHeading label="professional" title="" />
+          {/*<SectionHeading label="professional" title="Professional Work" />*/}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {professionalWork.map((project) => (
               <ProjectCard key={project.id} project={project} />
@@ -137,9 +139,10 @@ export default function ProjectsPage() {
           </div>
         </div>
 
-        {/* Personal Projects */}
+        {/* Personal Game Projects */}
         <div className="border-t border-zinc-200 dark:border-zinc-800 pt-14">
-          <SectionHeading label="personal" title="Personal Projects" />
+          {/*<SectionHeading label="personal" title="Personal Projects" />*/}
+          <SectionHeading label="personal" title="" />
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {personalWork.map((project) => (
               <ProjectCard key={project.id} project={project} />
@@ -147,9 +150,21 @@ export default function ProjectsPage() {
           </div>
         </div>
 
+      {/* Personal Other Projects */}
+      <div className="border-t border-zinc-200 dark:border-zinc-800 pt-14">
+          {/*<SectionHeading label="Other" title="World Building" />*/}
+          <SectionHeading label="Other" title="" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {personalOtherWork.map((project) => (
+                  <ProjectCard key={project.id} project={project} />
+              ))}
+          </div>
+      </div>
+
         {/* Game Jams */}
         <div className="border-t border-zinc-200 dark:border-zinc-800 pt-14">
-          <SectionHeading label="jam" title="Game Jams" />
+          {/*<SectionHeading label="jam" title="Game Jams" />*/}
+          <SectionHeading label="jam" title="" />
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {jams.map((project) => (
               <ProjectCard key={project.id} project={project} />

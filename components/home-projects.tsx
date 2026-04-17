@@ -113,9 +113,9 @@ export default function HomeProjects() {
         {/* Heading */}
         <div className="mb-10">
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-6 h-px bg-indigo-400" />
+            {/*<div className="w-6 h-px bg-indigo-400" />*/}
             <span className="text-indigo-500 dark:text-indigo-400 text-xs tracking-widest uppercase">
-              work
+              {/*work*/}
             </span>
           </div>
           <h2 className="text-3xl font-bold text-zinc-900 dark:text-zinc-50 tracking-tight">

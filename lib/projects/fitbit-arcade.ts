@@ -7,7 +7,7 @@ export const fitbitArcade: Project = {
   team: "Google / Mighty Games / Mighty Build and Test",
   role: "Senior Automation Engineer",
   category: "professional",
-  image: "/images/fitbit/fitbit-arcade-watch.png",
+  image: "/fitbit/fitbit-arcade-watch.png",
   description: `
 QA automation engineering across a suite of games for the Fitbit Arcade on the Google Fitbit Ace.
 Automated testing on Otal's Secret, Galaxy Rangers and Spooky Sanctuary, while mentoring two colleagues on other titles in the suite.
@@ -40,7 +40,7 @@ We also wanted to catch outlying issues, and randomised input was also necessary
 
 We had up to 9 game instances running 24/7, each with a variant of the bot code. These bots were able to alert QA and the dev team if ever we got stuck, or encountered any errors along the way.
       `,
-      image: "/images/fitbit/fitbit-arcade-secret.png",
+      image: "/fitbit/fitbit-arcade-secret.png",
     },
     {
       title: "Galaxy Rangers",
@@ -51,7 +51,7 @@ My role was to assist completing a test bot that could navigate through dialogue
 The key challenge was to identify where in the game we were at any given time, as many screens had the same components and text, but depending on the game state, only certain actions were possible.
 We always wanted to be lean with navigating through the game, so we could adapt to developer changes, and keep with pseudo-randomised inputs that would catch unsuspecting bugs.
       `,
-      image: "/images/fitbit/fitbit-arcade-galaxy.png",
+      image: "/fitbit/fitbit-arcade-galaxy.png",
     },
     {
       title: "Spooky Sanctuary",
@@ -61,7 +61,7 @@ common algorithms such as A* Pathfinding and state machines as the bot discovere
 
 Once again, the challenge was to keep things lean while also tailoring a bot that could complete the game.
       `,
-      image: "/images/fitbit/fitbit-arcade-spooky.png",
+      image: "/fitbit/fitbit-arcade-spooky.png",
     },
   ],
 };

@@ -1,3 +1,5 @@
+import {Download} from "lucide-react";
+
 export type ProjectSection = {
   title: string;
   body: string;
@@ -21,7 +23,7 @@ export type Project = {
   year: string;
   team?: string;
   role?: string;
-  category: "professional" | "personal" | "jam";
+  category: "professional" | "personal" | "personalOther" | "jam";
   description: string;
   tags: string[];
   genre?: string[]; // TODO set this up
