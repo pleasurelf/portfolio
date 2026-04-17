@@ -7,10 +7,11 @@ export const stel: Project = {
     team: "RMIT Games Design Capstone Project",
     role: "Game Generalist",
     category: "personal",
-    image: "/images/stel/stel-gameplay-image-1.png",
+    image: "/images/stel/stel-cover.png",
     description:
-        "It was supposed to be simple trip to the doctor...",
-    tags: ["Unity", "C#", "Adventure"],
+        "Explore a rural icy township in this short mystery-narrative game about a boy trying to save his sick father. Exploring the Scandinavian-inspired wilderness filled with puzzle-lite tasks to uncover some tough lessons in growing up.",
+    tags: ["Unity", "C#", "PhotoShop", "Maya", "Substance Painter", "Mixamo"],
+    genre: ["Adventure"],
     links: [
         {
             label: "Play",
@@ -25,20 +26,22 @@ Stel is a short mystery-narrative about a boy instructed to seek help from a wit
         {
             title: "ACME Introduction",
             body: `
-It was supposed to be simple trip to the doctor, but instead of medicine you received a map, and were shoved into an unfamiliar land to have your mettle tested.
+something about being nominated
       `,
             videoBelow: "/videos/stel/stel-introduction.mp4",
         },{
             title: "The Game",
             body: `
-Some description
+I WORKED ON STEL IN A MULTI-DISCIPLINARY ROLE, HOWEVER PRIMARILY FOCUSED AS A GAME DESIGNER, UNITY DEVELOPER AND PRODUCER.
       `,
             image: "/images/stel/stel-gameplay-image-1.png",
             imageAlt: "Stel running through town",
         },
         {
             title: "dfgdfg",
-            body: `dfgdfgdf`,
+            body: `
+            It was supposed to be simple trip to the doctor, but instead of medicine you received a map, and were shoved into an unfamiliar land to have your mettle tested.
+            `,
             image: "/images/stel/stel-gameplay-image-2.png",
             imageAlt: "Stel sleighing through town",
         },

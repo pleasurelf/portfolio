@@ -14,6 +14,7 @@ import { innchanted } from "./innchanted";
 import { forestDemo } from "./forest-demo";
 import { factoryDemo } from "./factory-demo";
 import { stel } from "./stel";
+import { doomsdayBall } from "./doomsday-ball";
 import { findersKeepers } from "./game-jam-finders-keepers";
 import { goap } from "./goap";
 import { playerController } from "./player-controller";
@@ -29,6 +30,7 @@ export const projects = [
   innchanted,
   // Personal
     stel,
+    doomsdayBall,
   forestDemo,
   factoryDemo,
   procgen,

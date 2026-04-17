@@ -24,6 +24,7 @@ export type Project = {
   category: "professional" | "personal" | "jam";
   description: string;
   tags: string[];
+  genre?: string[]; // TODO set this up
   image?: string;
   imagePosition?: "top" | "center";
   video?: string;
