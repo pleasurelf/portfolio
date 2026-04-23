@@ -23,7 +23,7 @@ export default function HomeContact() {
                   {/* Photo container */}
                   <div>
                       <Image
-                          src="/images/jenny/baeley-and-jenny.jpg"
+                          src="/jenny/baeley-and-jenny.jpg"
                           alt="Art Portrait of Baeley the Beagle and Jenny"
                           fill
                           sizes="(max-width: 768px) 192px, 224px"

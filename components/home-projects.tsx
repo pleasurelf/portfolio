@@ -119,7 +119,7 @@ export default function HomeProjects() {
             </span>
           </div>
           <h2 className="text-3xl font-bold text-zinc-900 dark:text-zinc-50 tracking-tight">
-            Selected projects
+            Featured Projects
           </h2>
         </div>
 

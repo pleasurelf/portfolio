@@ -1,4 +1,6 @@
 // Re-export types
+// import {untitledCodexGame} from "@/lib/projects/project-untitled-codex-game";
+
 export type { Project, ProjectSection, ProjectLink, } from "./types";
 
 // ─── Project list ────────────────────────────────────────────────────────────
@@ -13,6 +15,7 @@ import { dreamlightValley } from "./dreamlight-valley";
 import { stel } from "./project-stel";
 import { doomsdayBall } from "./project-doomsday-ball";
 import { herbiesHeinousHorrors } from "./project-herbies-heinous-horrors";
+import { untitledCodexGame } from "./project-untitled-codex-game";
 // Other
 import { oneHitWonders } from "./project-one-hit-wonders";
 import { mashina } from "./project-mashina";
@@ -32,11 +35,12 @@ export const projects = [
     oneHitWonders,
     mashina,
     welcomeToPripyat,
+    untitledCodexGame,
   // Game Jams
     findersKeepers,
 ];
 
-export const featuredProjects = ["testbuddy", "lego-party", "dreamlight", "guilty-gear", "fitbit-arcade", "innchanted"];
+export const featuredProjects = ["dreamlight-valley", "guilty-gear", "fitbit-arcade", "project-doomsday-ball"];
 
 export function getProjectById(id: string) {
   return projects.find((p) => p.id === id);

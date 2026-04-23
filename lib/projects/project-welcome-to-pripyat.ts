@@ -12,7 +12,7 @@ export const welcomeToPripyat: Project = {
     image: "",
     description:
         "Play as a mad rancher in his isolated, ransacked homestead and git whackin' those danged Chicktubs! DO NOT underestimate them, however, as they're both sentient and mad as heck, and those short, jank-ass chicky legs pick up some hot diggin' speed.",
-    tags: ["DreamsPS4",],
+    tags: ["Adobe Photoshop", "Adobe Premiere Pro", "Adobe Illustrator", "Adobe InDesign"],
     links: [
         {
             label: "View Dreams Store Page",

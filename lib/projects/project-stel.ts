@@ -10,7 +10,7 @@ export const stel: Project = {
     image: "/stel/stel-cover.png",
     description:
         "Explore a rural icy township in this short mystery-narrative game about a boy trying to save his sick father. Exploring the Scandinavian-inspired wilderness filled with puzzle-lite tasks to uncover some tough lessons in growing up.",
-    tags: ["Unity", "C#", "PhotoShop", "Maya", "Substance Painter", "Mixamo"],
+    tags: ["Unity", "C#", "Adobe PhotoShop", "Maya", "Substance Painter", "Mixamo"],
     genre: ["Adventure"],
     links: [
         {

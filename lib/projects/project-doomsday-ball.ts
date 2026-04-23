@@ -7,7 +7,7 @@ export const doomsdayBall: Project = {
     team: "RMIT Games Design Prototype",
     role: "Game Developer",
     category: "personal",
-    image: "/images/doomsday-ball/doomsday-ball-cover.png",
+    image: "/doomsday-ball/doomsday-ball-cover.png",
     description:
         "A silly mystery narrative about Frankie, a sweet lizard boy who slithered his way to prom. Have a blast from the past in the barren Moore Jupiter High gymnasium, interacting with the remnants left behind to discover where the the prom queen went, and why you've arrived just a little too late to the ball.",
     tags: ["Unity", "C#", "Procreate", "Notion"],

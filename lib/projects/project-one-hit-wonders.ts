@@ -6,11 +6,11 @@ export const oneHitWonders: Project = {
     year: "2020",
     team: "RMIT Games Design World Building",
     role: "Writer, Artist",
-    category: "personal",
+    category: "personalOther",
     image: "",
     description:
         "Another second world war fiction, this time recited through the sales descriptions of highly impractical warfare items that peaked... Well, never. They never peaked because they barely worked. It's a cute little project, nonetheless, and pokes fun at unconventional weapon design during a dark era in history.",
-    tags: ["Unity", "C#", "Procreate", "Notion"],
+    tags: ["Krita", "Adobe Photoshop"],
     links: [
         {
             label: "Play",
