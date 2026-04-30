@@ -14,7 +14,7 @@ export const doomsdayBall: Project =
     tags: ["Unity", "C#", "Procreate", "Notion"],
     links: [
         {
-            label: "Play",
+            label: "Play on Itch.io",
             url: "https://pleasureelf.itch.io/doomsday-game",
             type: "external",
         },
